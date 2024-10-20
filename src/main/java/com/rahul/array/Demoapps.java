@@ -10,5 +10,10 @@ public class Demoapps {
         for (int i=10; i<=20; i++){
            System.out.print(i+" ");
         }
+        String arr[] = {"red","yellow","green"};
+        System.out.println();
+        for(String s : arr){
+            System.out.print(s+" ");
+        }
     }
 }
